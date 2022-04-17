@@ -9,7 +9,7 @@ public class ageChecker {
         System.out.println("Welcome in our shop!\nEnter your age: ");
         int age = input.nextInt();
 
-        if (age >= 18){
+        if (age >= 18) {
             System.out.println("Thank you for shopping!");
         }
         else if (age <= 0) {
