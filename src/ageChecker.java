@@ -10,7 +10,7 @@ public class ageChecker {
         int age = input.nextInt();
 
         if (age >= 18) {
-            System.out.println("Thank you for shopping!");
+            System.out.println("You are able to buy alcohol.");
         }
         else if (age <= 0) {
             System.out.println("You have entered wrong value, please try again later.");
