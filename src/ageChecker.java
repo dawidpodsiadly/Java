@@ -10,8 +10,7 @@ public class ageChecker {
         if (age >= 18){
             System.out.println("Thank you for shopping!");
         }
-
-        if (age < 18){
+        else{
             int years = 18-age;
             System.out.println("Sorry, you are too young to buy alcohol.\nSee you in " + years + " years");
         }
