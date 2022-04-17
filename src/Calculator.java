@@ -25,15 +25,12 @@ public class Calculator {
                 case 1:
                     System.out.println("You answer: " + (a + b) + "\n");
                     continue;
-
                 case 2:
                     System.out.println("You answer: " + (a - b) + "\n");
                     break;
-
                 case 3:
                     System.out.println("You answer: " + (a * b) + "\n");
                     break;
-
                 case 4:
                     if(b == 0) {
                         System.out.println("You can't divide by 0!\n");
@@ -43,7 +40,6 @@ public class Calculator {
                         System.out.println("You answer: " + (a / b) + "\n");
                         break;
                     }
-
                 case 5:
                     System.out.println("Goodbye");
                     break;
