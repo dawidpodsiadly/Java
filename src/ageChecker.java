@@ -12,6 +12,9 @@ public class ageChecker {
         if (age >= 18){
             System.out.println("Thank you for shopping!");
         }
+        else if (age <= 0) {
+            System.out.println("You have entered wrong value, please try again later.");
+        }
         else{
             int years = 18 - age;
             System.out.println("Sorry, you are too young to buy alcohol.\nSee you in " + years + " years");
