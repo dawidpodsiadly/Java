@@ -1,3 +1,5 @@
+// A simple program that calculates mathematical operations for us
+
 import java.util.Scanner;
 
 public class Calculator {

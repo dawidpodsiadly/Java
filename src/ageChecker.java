@@ -1,3 +1,5 @@
+// A simple program that checks if u can buy alcohol.
+
 import java.util.Scanner;
 
 public class ageChecker {
@@ -11,7 +13,7 @@ public class ageChecker {
             System.out.println("Thank you for shopping!");
         }
         else{
-            int years = 18-age;
+            int years = 18 - age;
             System.out.println("Sorry, you are too young to buy alcohol.\nSee you in " + years + " years");
         }
     }
