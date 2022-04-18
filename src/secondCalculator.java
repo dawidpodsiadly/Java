@@ -34,6 +34,5 @@ public class secondCalculator {
         System.out.println("Substraction: " + result.subtraction(firstNumber, secondNumber));
         System.out.println("Multiplication: " + result.multiplication(firstNumber, secondNumber));
         System.out.println("Division: " + result.division(firstNumber, secondNumber));
-
     }
 }
