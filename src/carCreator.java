@@ -1,4 +1,4 @@
-import java.awt.*;
+// Simple program to create your own car.
 
 public class carCreator {
 
@@ -7,7 +7,6 @@ public class carCreator {
     public int year;
     public int mileage;
 
-
     public carCreator(String brand, String model, int year, int mileage){
         this.brand = brand;
         this.model = model;
@@ -15,11 +14,11 @@ public class carCreator {
         this.mileage = mileage;
     }
 
-    public void drive() {
+    public static void drive() {
         System.out.println("Engine on, bon voyage");
     }
 
-    public void brake() {
+    public static void brake() {
         System.out.println("You are driving too fast! Brake!!!");
     }
 
