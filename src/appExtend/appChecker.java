@@ -1,4 +1,5 @@
 //Exercise how constructors work during inheritance
+
 package appExtend;
 
 public class appChecker {
